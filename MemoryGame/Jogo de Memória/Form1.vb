@@ -21,11 +21,12 @@ Public Class Form1
 
     Private Sub ConfiguraçãoDaTela()
 
+        Me.CenterToScreen()
         Me.BackColor = Color.Black
         Me.Size = New Size(800, 400)
         Me.DoubleBuffered = True
         Me.Text = "Jogo de Memória"
-        Me.CenterToScreen()
+
 
         Me.FormBorderStyle = FormBorderStyle.None
         Centrodatela = New Point(Me.Width / 2, Me.Height / 2)
